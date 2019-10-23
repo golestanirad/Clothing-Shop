@@ -1,0 +1,46 @@
+.checkout-page {
+  background-color: aqua;
+  width: 60%;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  //   justify-content: center;
+  //   align-items: center;
+  padding: 20px;
+  margin: 20px auto;
+  .checkout-item-table {
+    background-color: darkgray;
+    width: 100%;
+    max-height: 600px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+  }
+  .header {
+    padding: 10px;
+    background-color: coral;
+    border-bottom: 2px solid black;
+    .header-tilte {
+      font-weight: bold;
+      text-transform: capitalize;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: azure;
+      margin: 2px;
+      width: 23%;
+      &:last-child {
+        width: 8%;
+      }
+    }
+  }
+  .total{
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+      padding:10px;
+      font-size:20px;
+      font-weight: bold;
+      background-color: pink;
+  }
+}

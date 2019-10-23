@@ -1,0 +1,31 @@
+.checkout-item {
+  width: 100%;
+  display: flex;
+  // margin:50px;
+  .name,
+  .quantity,
+  .price,
+  .remove,
+  .image {
+    width: 23%;
+    display: flex;
+    background-color: blueviolet;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .arrow{
+    &:hover{
+      cursor: pointer;
+    }
+      margin: 10px;
+  }
+  .remove {
+    width: 8%;
+    &:hover {
+        background-color: rgb(185, 159, 209);
+    }
+  }
+}
